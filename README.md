@@ -13,4 +13,4 @@ output: html_document
 ### Usage of run_analysis.R:
   - Download https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
   - Set your R working directory to the "UCI HAR Dataset" folder contained in the above zip file and run run_analysis.R
-  - This will create a file mytidydataset.txt, which is the output of write.table(). (see CodeBook.md for more details) 
+  - This will create a file tiny_data.txt, which is the output of write.table(). (see CodeBook.md for more details) 
