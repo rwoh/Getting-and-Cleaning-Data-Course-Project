@@ -49,4 +49,4 @@ data2$activity <- mapvalues(data2$activity,from = as.character(activity[[1]]), t
 
 library(dplyr)
 mysummary <- group_by(tbl_df(data2), subject, activity) %>% summarise_each(funs(mean))
-write.table(mysummary,file = "mytidydataset.txt", row.names=FALSE)
+write.table(mysummary,file = "tiny_data.txt", row.names=FALSE)
